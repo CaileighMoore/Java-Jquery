@@ -1,7 +1,7 @@
 //business logic
-let jsCount = 0;
-let csCount = 0;
-let rubyCount = 0;
+let HTMLCount = 0;
+let PythonCount = 0;
+let JavascriptCount = 0;
 
 let tally = (answer) => {
   if (answer === 'HTML') {
@@ -25,7 +25,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $('.btn2').click(function(){
+  $('#btn2').click(function(){
       $("p#intro").hide();
       $("#first").hide();
       $("#second").show();
@@ -79,3 +79,7 @@ $(document).ready(function(){
     $("#results").show();
   });
 });
+
+if (result == 0) {HTMLCount = "It looks like your best option would be HTML!"};
+    if (result == 25) {JavascriptCount = "You know the basics already, you should dive right into Javascript!"};
+    if (result == 50) {PythonCount = "You smarty pants! Python is your next step!"};
