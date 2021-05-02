@@ -10,9 +10,9 @@ $(document).ready(function() {
     let value3 = parseInt($("#answer3").val());
     let value4 = parseInt($("#answer4").val());
     let value5 = parseInt($("#answer5").val());
-    const total = $("input:radio[name=operator]:checked").val();
+    const total = $("input:radio[name=total]:checked").val();
     
-    let result;
+    let results;
     if (total >= 24 && total <= 35) {
       $("HTML").show();
     }
