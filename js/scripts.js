@@ -4,7 +4,7 @@ function add(value1, value2, value3, value4, value5) {
 
 $(document).ready(function() {
   $("form#answer").submit(function() {
-    e.preventDefault();
+    event.preventDefault();
     let value1 = parseInt($("#answer1").val());
     let value2 = parseInt($("#answer2").val());
     let value3 = parseInt($("#answer3").val());

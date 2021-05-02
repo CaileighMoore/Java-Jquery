@@ -1,7 +1,7 @@
 body {
   background-color: rgb(38, 106, 129);
   font-family: Helvetica;
-    }
+}
 
 #title1 {
   width: 80%;
@@ -11,7 +11,7 @@ body {
   padding: 10px;
   background-color: rgb(148, 209, 228);
   border-radius: 10px;
-  }
+}
 
 .title2 {
   margin-top: 20px;
@@ -21,7 +21,8 @@ body {
   background: rgb(255, 255, 255);
   background-image: url("code.jpg");
   color: white;
-  }
+}
+
 #intro {
   padding:20px;
   background-color: rgb(80, 119, 129);
@@ -37,6 +38,7 @@ body {
   text-align: center;
   box-sizing:border-box;
 }
+
 #button {
   padding:20px;
   background-color: rgb(0, 8, 6);
@@ -88,7 +90,7 @@ h2 {
   clear: both;
   float:center;
   padding-top: 15px;
-  }
+}
 
 h1 {
   margin-top:20px;
